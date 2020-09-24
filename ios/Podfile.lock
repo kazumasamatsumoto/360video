@@ -1,0 +1,43 @@
+PODS:
+  - Flutter (1.0.0)
+  - GoogleToolboxForMac/Defines (2.2.2)
+  - GoogleToolboxForMac/Logger (2.2.2):
+    - GoogleToolboxForMac/Defines (= 2.2.2)
+  - GTMSessionFetcher/Core (1.4.0)
+  - GVRKit (1.170.0):
+    - GVRSDK (= 1.170.0)
+  - GVRSDK (1.170.0):
+    - GoogleToolboxForMac/Logger (~> 2.1)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - video_player_360 (0.0.1):
+    - Flutter
+    - GVRKit (= 1.170.0)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - video_player_360 (from `.symlinks/plugins/video_player_360/ios`)
+
+SPEC REPOS:
+  trunk:
+    - GoogleToolboxForMac
+    - GTMSessionFetcher
+    - GVRKit
+    - GVRSDK
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  video_player_360:
+    :path: ".symlinks/plugins/video_player_360/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  GoogleToolboxForMac: 800648f8b3127618c1b59c7f97684427630c5ea3
+  GTMSessionFetcher: 6f5c8abbab8a9bce4bb3f057e317728ec6182b10
+  GVRKit: 5c3c481600ffd09ff5a9be3584089445c03c2ecc
+  GVRSDK: 690e9ca3e4d6161b84ff25519447ed2f53e0eb0b
+  video_player_360: c4d2932b27d3129b235f3a253f1f6c6d0714a5b3
+
+PODFILE CHECKSUM: 02d52f53440db74f85a4f77ff0ea6aa460d2c8df
+
+COCOAPODS: 1.9.3
